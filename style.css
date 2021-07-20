@@ -1,0 +1,148 @@
+#presentation_nav
+{
+  display:flex;
+  justify-content: space-between;
+}
+
+nav ul{
+ display: flex;
+ padding-right: 10px;
+ 
+}
+nav ul li {
+  margin-right: 40px;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+}
+
+#barre_de_recherche{
+  display:flex;
+  margin-bottom:2px;
+
+
+}
+#bouton_recherche{
+  background:#0065FC;
+  color:white;
+  width:135px;
+  height:35px;
+
+}
+
+
+#bouton_recherche h2{
+  text-align:center;
+  height:15px;
+  width:-10px;
+}
+
+#filtre{
+  display:flex;
+
+  margin-right:60px;
+}
+
+#economique{
+  margin-right:25px;
+  margin-left:10px;
+  display:flex;
+  border:1px solid black;
+  height:30px;
+  border-radius:30px;
+  padding-right:10px;
+  margin-top:25px;
+  padding-top:10px;
+  padding-left:10px
+}
+#economique h2{
+  margin-top:-5px;
+  margin-left:10px;
+  height:5px
+
+}
+#familial{
+  margin-right:25px;
+  margin-left:25px;
+  display:flex;
+  display:flex;
+  border:1px solid black;
+  height:20px;
+  width:130px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  border-radius:30px;
+  margin-top:25px;
+
+}
+#familial h2{
+  margin:-5px;
+  margin-left:10px;
+
+}
+
+
+#romantique{
+  margin-right:25px;
+  margin-left:25px;
+  display:flex;
+  display:flex;
+  border:1px solid black;
+  height:20px;
+  width:130px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  border-radius:30px;
+  margin-top:25px;
+  padding-right:30px
+
+}
+
+#romantique h2{
+  margin-top:-5px;
+  margin-left:10px;
+}
+
+#animaux_autorises{
+  margin-right:25px;
+  margin-left:25px;
+  display:flex;
+  display:flex;
+  border:1px solid black;
+  height:20px;
+  width:130px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:50px;
+  border-radius:30px;
+  margin-top:25px;
+  padding-right:30px
+
+}
+#animaux_autorises h2{
+  text-align:center;
+}
+
+.offre{
+    color: red;
+
+}
+
+.tartine{
+    text-decoration: underline;
+}
+
+/** Pour faire un cercle **/
+élément {
+    background-color: red;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+}
