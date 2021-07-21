@@ -31,7 +31,7 @@ nav a {
 #bouton_recherche{
   background:#0065FC;
   color:white;
-  border: 1px solid black;
+  border: 1px solid #0065FC;
   border-radius: 0px 15px 15px 0px;
   width:135px;
   height:35px;
@@ -58,7 +58,7 @@ nav a {
 #filtre{
   display:flex;
 
-  margin-right:60px;
+  margin-right:100px;
 }
 
 #economique{
@@ -74,9 +74,10 @@ nav a {
   padding-left:10px
 }
 #economique h2{
-  margin-top:-5px;
-  margin-left:10px;
-  height:5px
+  margin-top:-3px;
+  margin-left:20px;
+  height:5px;
+  font-size: 1.1em;
 
 }
 #familial{
@@ -95,8 +96,9 @@ nav a {
 
 }
 #familial h2{
-  margin:-5px;
-  margin-left:10px;
+  margin:-3px;
+  margin-left:20px;
+  font-size: 1.1em;
 
 }
 
@@ -119,8 +121,9 @@ nav a {
 }
 
 #romantique h2{
-  margin-top:-5px;
-  margin-left:10px;
+  margin-top:-3px;
+  margin-left:20px;
+  font-size: 1.1em;
 }
 
 #animaux_autorises{
@@ -133,7 +136,7 @@ nav a {
   width:130px;
   padding-top:10px;
   padding-bottom:10px;
-  padding-left:50px;
+  padding-left:20px;
   border-radius:30px;
   margin-top:25px;
   padding-right:30px
@@ -141,6 +144,9 @@ nav a {
 }
 #animaux_autorises h2{
   text-align:center;
+  margin-top:-9px;
+  margin-left: 20px;
+  font-size: 1.1em;
 }
 
 .offre{
@@ -148,17 +154,9 @@ nav a {
 
 }
 
-.tartine{
-    text-decoration: underline;
-}
+
 
 /** Pour faire un cercle **/
-élément {
-    background-color: red;
-    width: 50px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-}
+
+/** section herbergement et aside**/
+#hebergements
