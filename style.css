@@ -159,4 +159,137 @@ nav a {
 /** Pour faire un cercle **/
 
 /** section herbergement et aside**/
-#hebergements
+
+section{
+  background-color:#F2F2F2;
+  margin-top: -20px;
+  width: 60%;
+ display: flex;
+ flex-wrap: wrap;
+ height: 70%;
+padding-left: 30px;
+border-radius: 0% 0% 10% 10%;
+}
+
+.offre img{
+  width: 185px;
+  height: 100px;
+  border-radius: 10% 10% 10% 10%;
+}
+
+#herbegements{
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 590px;
+  height: 1563.72px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.offre{
+  
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-radius: 10% 10% 10% 10%;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  
+  
+  
+}
+
+.offre h3{
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: black;
+  text-decoration: none;
+
+  
+}
+a{
+  text-decoration: none;
+}
+.offre h4{
+  font-size: 0.7em;
+  margin-top: 1px;
+  padding-bottom: 4px;
+  color: black;
+}
+ 
+
+
+.offre_populaires img{
+  width: 120px;
+  height: 100px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.offre_populaires{
+  
+  display: flex;
+  width: 80%;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 50px;
+  padding-left:10px;
+  padding-left: 5px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+.offre_populaires h3{
+  font-size: 0.9em;
+  color: black;
+}
+
+.descriptions p{
+font-size: 0.7em;
+color: black;
+}
+.descriptions{
+  padding-left: 15px;
+}
+aside{
+  background-color:#F2F2F2 ;
+  width: 25%;
+  margin-bottom: 20px;
+  padding-bottom: -20px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 30px;
+  margin-left:75px;
+  padding-right: 40px;
+  margin-right: 5px;
+  height: 120%;
+  margin-top: -78px ;
+  margin-bottom: 55px;
+  
+}
+aside h2{
+  margin-left: 110px;
+  font-size: 1.1em;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#titre_1{
+  margin-top: 50px;
+  padding-top: 20px;
+  
+  width: 59.3%;
+  background-color:#F2F2F2;
+  padding-bottom: 10px;
+  font-size: 0.8em;
+  padding-left: 40px;
+  border-radius: 10% 10% 0% 0%;
+}
+
+#herbergements_et_aside{
+  display: flex;
+  flex-wrap: wrap;
+}
