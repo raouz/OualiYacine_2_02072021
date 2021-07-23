@@ -213,6 +213,7 @@ border-radius: 0% 0% 10% 10%;
 a{
   text-decoration: none;
 }
+
 .offre h4{
   font-size: 0.7em;
   margin-top: 1px;
@@ -292,4 +293,79 @@ aside h2{
 #herbergements_et_aside{
   display: flex;
   flex-wrap: wrap;
+}
+
+
+
+
+/**  mise en forme des activites **/
+
+#titre_2{
+  margin-left: 90px;
+}
+
+.activite_1 img{
+  width: 100%;
+  height: 255px;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.activite_1{
+  margin-right: 84%;
+  border-radius: 10% 10% 10% 10% ;
+  margin-top: 50px;
+  box-shadow: 5px 5px 3px  #F2F2F2;
+  width: 190px;
+  
+
+}
+
+.activite_2 img{
+  width: 100%;
+  height: 140px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.activite_2{
+  margin-right: 82%;
+  width: 210px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 3px  #F2F2F2;
+  
+}
+
+.activite_3 img{
+width: 210px;
+height: 130px;
+border-radius: 10px 10px 0px 0px;
+}
+
+.activite_3{
+  margin-right: 81.1%;
+  width: 210px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 3px  #F2F2F2;
+}
+
+.groupe_activites{
+  display: flex;
+  margin-left: 150px;
+}
+
+#activites{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+#activites h3{
+  color: black;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+.activites_2_3{
+  margin-left: 50px;
 }
