@@ -65,7 +65,7 @@ nav a {
   margin-right:25px;
   margin-left:10px;
   display:flex;
-  border:1px solid black;
+  border:3px solid #DEEBFF;
   height:30px;
   border-radius:30px;
   padding-right:10px;
@@ -85,7 +85,7 @@ nav a {
   margin-left:25px;
   display:flex;
   display:flex;
-  border:1px solid black;
+  border:3px solid #DEEBFF;
   height:20px;
   width:130px;
   padding-top:10px;
@@ -105,17 +105,17 @@ nav a {
 
 #romantique{
   margin-right:25px;
-  margin-left:25px;
+  margin-left:87px;
   display:flex;
   display:flex;
-  border:1px solid black;
+  border:3px solid #DEEBFF;
   height:20px;
   width:130px;
   padding-top:10px;
   padding-bottom:10px;
   padding-left:10px;
   border-radius:30px;
-  margin-top:25px;
+  margin-top:-10px;
   padding-right:30px
 
 }
@@ -128,17 +128,17 @@ nav a {
 
 #animaux_autorises{
   margin-right:25px;
-  margin-left:25px;
+  margin-left:55px;
   display:flex;
   display:flex;
-  border:1px solid black;
+  border:3px solid #DEEBFF;
   height:20px;
   width:130px;
   padding-top:10px;
   padding-bottom:10px;
-  padding-left:20px;
+  padding-left:10px;
   border-radius:30px;
-  margin-top:25px;
+  margin-top:-10px;
   padding-right:30px
 
 }
@@ -157,6 +157,20 @@ nav a {
 
 
 /** Pour faire un cercle **/
+
+.symbole{
+  
+  border-radius: 50%;
+  height: 20px;
+  margin-left: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  color: #0065FC;
+  background-color:#DEEBFF ;
+}
 
 /** section herbergement et aside**/
 
