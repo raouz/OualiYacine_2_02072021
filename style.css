@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
 #presentation_nav
 {
   display:flex;
@@ -18,14 +24,31 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover{
+  border-top: 2px solid #0065FC;
+  padding-top: 20px;
+}
+
+header h1{
+  font-size:1.3em;
+
+
+}
+
 #barre_de_recherche{
   display:flex;
   margin-bottom:2px;
   margin-left: 30px;
 
-
 }
 
+#symbole_localisation{
+  padding-left: 19px;
+  padding-right: 16px;
+  padding-top: 8px;
+  background-color:#F2F2F2 ;
+  border-radius:10px 0px 0px 10px;
+}
 
 
 #bouton_recherche{
@@ -61,6 +84,12 @@ nav a {
   margin-right:100px;
 }
 
+#filtre p{
+  margin-top:40px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
 #economique{
   margin-right:25px;
   margin-left:10px;
@@ -78,34 +107,46 @@ nav a {
   margin-left:20px;
   height:5px;
   font-size: 1.1em;
+  padding-left: 40px;
 
+}
+
+#economique:hover{
+  color: red;
+  text-decoration: underline;
+  
 }
 #familial{
   margin-right:25px;
   margin-left:25px;
   display:flex;
-  display:flex;
   border:3px solid #DEEBFF;
   height:20px;
   width:130px;
   padding-top:10px;
   padding-bottom:10px;
+  padding-right: 10px;
   padding-left:10px;
   border-radius:30px;
   margin-top:25px;
-
 }
+
 #familial h2{
   margin:-3px;
-  margin-left:20px;
+  margin-left:55px;
   font-size: 1.1em;
 
 }
 
+ #familial:hover{
+  color: red;
+  text-decoration: underline;
+  
+}
 
 #romantique{
   margin-right:25px;
-  margin-left:87px;
+  margin-left:33px;
   display:flex;
   display:flex;
   border:3px solid #DEEBFF;
@@ -115,15 +156,21 @@ nav a {
   padding-bottom:10px;
   padding-left:10px;
   border-radius:30px;
-  margin-top:-10px;
-  padding-right:30px
+  margin-top:24px;
+  padding-right:50px;
 
 }
 
 #romantique h2{
   margin-top:-3px;
-  margin-left:20px;
+  margin-left:54px;
   font-size: 1.1em;
+}
+
+#romantique:hover{
+  color: red;
+  text-decoration: underline;
+  
 }
 
 #animaux_autorises{
@@ -138,22 +185,26 @@ nav a {
   padding-bottom:10px;
   padding-left:10px;
   border-radius:30px;
-  margin-top:-10px;
-  padding-right:30px
+  margin-top:24px;
+  padding-right:60px;
 
 }
 #animaux_autorises h2{
   text-align:center;
   margin-top:-9px;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 1.1em;
 }
 
-.offre{
-    color: red;
-
+#animaux_autorises:hover{
+  color: red;
+  text-decoration: underline;
+  
 }
 
+#symbole_information i {
+  color: black;
+}
 
 
 /** Pour faire un cercle **/
@@ -161,15 +212,16 @@ nav a {
 .symbole{
   
   border-radius: 50%;
-  height: 20px;
+  height: 50px;
+  width: 50px;
   margin-left: -10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: -10px;
+  margin-top: -14px;
+  display: flex;
+  position: absolute;
   color: #0065FC;
   background-color:#DEEBFF ;
+  justify-content: center;
+  align-items: center;
 }
 
 /** section herbergement et aside**/
