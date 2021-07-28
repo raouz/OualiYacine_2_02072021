@@ -487,3 +487,50 @@ border-radius: 10px 10px 0px 0px;
 .activites_2_3{
   margin-left: 50px;
 }
+
+
+/*footer*/
+
+
+footer{
+  margin-top: 55px;
+  display: flex;
+  background-color:#F2F2F2 ;
+  margin-left: 10px;
+  padding-left: 260px;
+  padding-right: 260px;
+  margin-right: -10px;
+  padding-top:30px ;
+  margin-bottom: -10px;
+}
+
+footer h2{
+  font-size: 0.9em;
+}
+
+footer  ul{
+  font-weight: 400;
+  
+ list-style-type: none;
+}
+
+footer  li{
+  margin-bottom: 15px;
+  margin-left:-40px;
+}
+
+footer a{
+  color: black;
+}
+
+footer ul{
+  padding-top:12px;
+}
+
+#nos_hebergements{
+  margin-left: 145px;
+}
+
+#assistances{
+  margin-left: 235px;
+}
