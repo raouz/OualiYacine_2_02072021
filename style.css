@@ -4,6 +4,12 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+#logo{
+margin-left: 30px;
+
+}
+
+
 #presentation_nav
 {
   display:flex;
@@ -85,7 +91,7 @@ margin-left: 30px;
 
 #filtre{
   display:flex;
-
+  margin-left: 30px;
   margin-right:100px;
 }
 
@@ -240,6 +246,7 @@ section{
  height: 70%;
 padding-left: 30px;
 border-radius: 0% 0% 13px 13px;
+margin-left: 30px;
 }
 
 section p {
@@ -390,6 +397,7 @@ aside h2{
   font-size: 0.8em;
   padding-left: 40px;
   border-radius: 13px 13px 0% 0%;
+  margin-left: 30px;
   
 }
 
