@@ -31,7 +31,12 @@ nav a:hover{
 
 header h1{
   font-size:1.3em;
+  margin-left: 30px;
 
+}
+
+header p{
+margin-left: 30px;
 
 }
 
