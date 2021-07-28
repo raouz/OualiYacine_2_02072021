@@ -402,22 +402,39 @@ aside h2{
 
 #titre_2{
   margin-left: 90px;
+  font-size: 0.8em;
 }
+
+#titre_2 h2{
+  margin-left: 32px;
+}
+
 
 .activite_1 img{
   width: 100%;
-  height: 255px;
+  height: 329px;
+  
   border-radius: 10% 10% 0% 0%;
+  margin-top: -49px;
+  margin-bottom: 1px;
+  
+ 
 }
 
 .activite_1{
   margin-right: 84%;
   border-radius: 10% 10% 10% 10% ;
-  margin-top: 50px;
+  margin-top: 2px;
   box-shadow: 5px 5px 3px  #F2F2F2;
-  width: 190px;
+  width: 230px;
+  padding-top: 47px;
   
+}
 
+.groupe_activites h3{
+  margin-left: 13px;
+  padding-bottom: 15px;
+  font-weight: 550;
 }
 
 .activite_2 img{
@@ -458,6 +475,7 @@ border-radius: 10px 10px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-top: 40px;
 }
 
 #activites h3{
