@@ -72,6 +72,7 @@ margin-left: 30px;
   text-align: center;
   padding-bottom: -10px;
   padding-top:-10px ;
+  cursor: pointer;
 
 }
 #bouton_recherche h2{
@@ -88,6 +89,9 @@ margin-left: 30px;
   height:15px;
   width:-10px;
 }
+
+/*FILTRE*/
+
 
 #filtre{
   display:flex;
@@ -213,12 +217,14 @@ margin-left: 30px;
   
 }
 
+/*information*/
+
 #symbole_information i {
   color: black;
 }
 
 
-/** Pour faire un cercle **/
+/**  FILTRES symboles  integrés dans des cercles bleu ciel   **/
 
 .symbole{
   
@@ -548,4 +554,66 @@ footer ul{
 
 #assistances{
   margin-left: 235px;
+}
+
+
+
+/*responsive iphone 8*/
+
+@media screen and (max-width: 375px){
+
+
+ 
+
+  nav ul{
+    display: flex;
+    
+    
+  }
+
+  #nav_hebergements{
+    
+    margin-top: 55px;
+   margin-left: -180px;
+   padding-left: 35px;
+  }
+
+  #nav_activites{
+    
+    margin-top: 55px;
+    margin-left: 0px;
+    padding-left: 65px;
+    padding-right: 23px;
+    border-bottom: 2px solid black;
+  }
+
+  #nav_inscrire{
+    margin-left: -80px;
+   
+  }
+
+  #nav_activites :hover{
+  border-top: none;
+  border-bottom: 2px solid  #0065FC;
+  color: #0065FC;
+  
+
+  }
+
+  #herbergements_et_aside{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+ #hebergements{
+   display: flex;
+  flex-direction: column;
+  }
+
+  header h1 ,p{
+    width: 320px;
+    margin-left: 30px;
+
+  }
+  
 }
