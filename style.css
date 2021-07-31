@@ -667,5 +667,84 @@ footer ul{
     margin-top: 50px;
   }
 
+/*MISE EN FORME SECTION HEBERGEMENTS IPHONE 8*/
+ section{
+  margin-left:-40px;
+  background-color: white;
+ padding-right: 170px;
+
+ }
+
+ .offre{
+   border-radius: 13px 13px 13px 13px;
+ }
+
+ .offre img{
+   width: 100%;
+   border-radius: 13px 13px 0px 0px;
+ }
+
+ #titre_1{
+   padding-right: 100px;
+   margin-left: 20px;
+   background-color: white;
+ }
+
+ #titre_1 h2{
+   
+   width: 290px;
   
+ }
+
+
+ #titre_2{
+   margin-left: -8px;
+   margin-top: 35px;
+ }
+
+ .groupe_activites{
+   display: flex;
+   flex-direction: column;
+   margin-left: 45px;
+  
+ }
+
+ .activite_1{
+   width: 330px;
+   border-radius: 10px 10px 10px 10px;
+ }
+ 
+ .activite_1 img {
+   height: 133px;
+   border-radius: 10px 10px 0px 0px;
+   object-fit: cover;
+ }
+
+ .activite_2{
+   width: 330px;
+   border-radius: 10px 10px 10px 10px;
+   margin-left: -50px;
+   
+ }
+
+ .activite_2 img{
+   height: 133px;
+   border-radius: 10px 10px 0px 0px;
+   object-fit: cover;
+ }
+
+ .activite_3{
+  width: 330px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: -50px;
+  
+}
+
+.activite_3 img{
+  width: 100%;
+  height: 133px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+ 
 }
