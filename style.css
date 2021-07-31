@@ -353,6 +353,7 @@ a{
   padding-left: 5px;
   padding-bottom: 5px;
   border-radius: 10px 10px 10px 10px;
+  object-fit: cover;
 }
 
 .offre_populaires{
@@ -391,7 +392,7 @@ aside{
   padding-right: 40px;
   margin-right: 5px;
   height: 120%;
-  margin-top: -98px ;
+  margin-top: 20px ;
   /*-78px*/
   margin-bottom: 75px;
   
@@ -403,6 +404,11 @@ aside h2{
   margin-left: 50px;
   margin-top: 30px;
 }
+
+#titre_populaire{
+margin-bottom: 35px;
+}
+
 
 #titre_1{
   
