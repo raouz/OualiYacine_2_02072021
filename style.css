@@ -222,10 +222,45 @@ margin-left: 30px;
 
 /*information*/
 
-#symbole_information i {
-  color: black;
+#symbole_information {
+  color:black;
+  
+  
+  padding-right: 0px;
+  margin-left: 35px;
+  padding-top: 10px;
 }
 
+#symbole_information .fas{
+  background-color: #0065FC;
+  padding-left: 0px;
+  border-radius: 50%;
+  color: white;
+  box-shadow: 1px 1px 1px #DEEBFF;
+  
+}
+
+
+
+#information{
+  display: flex;
+  margin-top: 15px;
+}
+
+#inscription_information{
+  margin-left: 5px;
+  
+  
+}
+
+#inscription_information p{
+  margin-left: 0px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 0.8em;
+  height: 7px;
+  
+}
 
 /**  FILTRES symboles  integrés dans des cercles bleu ciel   **/
 
@@ -669,7 +704,7 @@ footer ul{
 
 /*MISE EN FORME SECTION HEBERGEMENTS IPHONE 8*/
  section{
-  margin-left:-40px;
+  margin-left:-60px;
   background-color: white;
  padding-right: 170px;
 
@@ -677,6 +712,8 @@ footer ul{
 
  .offre{
    border-radius: 13px 13px 13px 13px;
+   width: 330px;
+   
  }
 
  .offre img{
