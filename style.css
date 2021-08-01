@@ -676,6 +676,28 @@ footer ul{
 
   }
 
+  #barre_de_recherche{
+    height: 50px;
+    
+    
+  }
+
+  input{
+    width: 260px;
+    font-weight: 600;
+    font-size: 1.1em ;
+    text-decoration:none;
+  }
+  
+  #bouton_recherche{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -40px;
+  }
+  
+
+
   #filtre{
    display: flex;
    flex-wrap: wrap;
@@ -708,6 +730,10 @@ footer ul{
   background-color: white;
  padding-right: 170px;
 
+ }
+
+ #information{
+   margin-left: -22px;
  }
 
  .offre{
