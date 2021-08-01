@@ -722,8 +722,10 @@ footer ul{
 
   aside{
     margin-top: 50px;
+   
   }
 
+  
 /*MISE EN FORME SECTION HEBERGEMENTS IPHONE 8*/
  section{
   margin-left:-60px;
@@ -809,5 +811,55 @@ footer ul{
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
+
+
+/* mise en forme des offres populaires*/
+
+
+aside{
+  margin-left: -8px;
+  padding-right: 290px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+
+.offre_populaires{
+margin-left: 20px;
+padding-right: 257px;
+padding-bottom: 45px;
+border-radius: 20px 20px 20px 20px;
+padding-bottom: 5px;
+}
+
+
+
+.offre_populaires img{
+border-radius: 20px 0px 0px 20px;
+width: 137px;
+height: 152px;
+padding-top: 5px;
+padding-left: 5px;
+}
+
+.offre_populaires h3{
+width:150px
+}
+
  
+.offre_populaires .etoiles{
+margin-left: 0px;
+margin-top: 53px;
+}
+
+.offre_populaires p{
+  margin-left: 0px;
+}
+
+#titre_populaire{
+  margin-left: -5px;
+}
+
+#titre_populaire h2{
+  width: 500px;
+}
 }
