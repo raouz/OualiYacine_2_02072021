@@ -727,6 +727,17 @@ footer ul{
 
   
 /*MISE EN FORME SECTION HEBERGEMENTS IPHONE 8*/
+
+
+#symbole_localisation{
+ padding-top: 15px; 
+
+}
+
+#filtre  p {
+  margin-left: -8px;
+}
+
  section{
   margin-left:-60px;
   background-color: white;
@@ -821,6 +832,7 @@ aside{
   padding-right: 290px;
   border-radius: 0px 0px 0px 0px;
 }
+
 
 
 .offre_populaires{
