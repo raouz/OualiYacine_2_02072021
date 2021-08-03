@@ -29,9 +29,35 @@ nav a {
 nav a:hover {
     border-top: 2px solid #0065fc;
     padding-top: 20px;
+    color: #0065fc;
 }
 
-header h1 {
+nav a:visited {
+    color: none;
+}
+#nav_hebergements a:visited {
+    color: black;
+}
+
+#nav_activites a:visited {
+    color: black;
+}
+#nav_inscrire {
+    font-weight: bold;
+}
+#nav_inscrire a:visited {
+    color: #0065fc;
+}
+
+#nav_hebergements a:hover {
+    color: #0065fc;
+}
+
+#nav_activites a:hover {
+    color: #0065fc;
+}
+
+#nav_activites header h1 {
     font-size: 1.3em;
     margin-left: 30px;
 }
@@ -588,6 +614,7 @@ footer ul {
         margin-left: -180px;
         padding-left: 45px;
         padding-right: 53px;
+        padding-bottom: 10px;
     }
 
     #nav_activites {
@@ -595,6 +622,7 @@ footer ul {
         margin-left: -60px;
         padding-left: 65px;
         padding-right: 50px;
+        padding-bottom: 10px;
     }
 
     #nav_inscrire {
@@ -663,6 +691,7 @@ footer ul {
 
     aside {
         margin-top: 50px;
+        margin-bottom: 0px;
     }
 
     /*MISE EN FORME SECTION HEBERGEMENTS IPHONE 8*/
