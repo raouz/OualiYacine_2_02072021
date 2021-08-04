@@ -649,6 +649,10 @@ footer ul {
         margin-left: 30px;
     }
 
+    header h1 {
+        font-size: 1.4em;
+    }
+
     #barre_de_recherche {
         height: 50px;
     }
@@ -847,5 +851,39 @@ footer ul {
     }
     footer ul {
         width: 300px;
+    }
+}
+/*responsive tablette */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    header h1 {
+        font-size: 1.2em;
+        margin-left: 30px;
+    }
+    #filtre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #familial {
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+
+    #animaux_autorises {
+        margin-left: 129px;
+        margin-top: 29px;
+    }
+
+    #economique {
+        margin-left: 30px;
+    }
+    #romantique {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    header h1 {
+        color: black;
     }
 }
