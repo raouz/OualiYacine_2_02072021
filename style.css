@@ -931,5 +931,23 @@ footer ul {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     header h1 {
         color: black;
+        font-size: 1.2em;
+        margin-left: 30px;
+    }
+
+    section {
+        padding-left: 158px;
+        margin-left: -17px;
+        padding-right: 233px;
+    }
+
+    .offre {
+        padding-right: 5px;
+        padding-bottom: 20px;
+        border: 1px solid black;
+    }
+    .offre img {
+        width: 520px;
+        height: 200px;
     }
 }
