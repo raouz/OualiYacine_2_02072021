@@ -859,6 +859,8 @@ footer ul {
         font-size: 1.2em;
         margin-left: 30px;
     }
+
+    /*mise en forme du filtre*/
     #filtre {
         display: flex;
         flex-wrap: wrap;
@@ -879,6 +881,30 @@ footer ul {
     }
     #romantique {
         margin-left: 40px;
+    }
+
+    /*mise en forme aside*/
+
+    aside {
+        padding-right: 575px;
+        padding-left: 130px;
+        margin-left: -10px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .offre_populaires {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding-right: 255px;
+    }
+    .offre_populaires img {
+        width: 390px;
+        height: 150px;
+    }
+    #titre_populaire h2 {
+        width: 290px;
+        font-size: 1.3em;
     }
 }
 
