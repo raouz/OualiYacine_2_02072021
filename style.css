@@ -962,4 +962,8 @@ footer ul {
     #filtre {
         flex-wrap: wrap;
     }
+
+    nav ul {
+        padding-right: 52px;
+    }
 }
