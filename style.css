@@ -966,4 +966,23 @@ footer ul {
     nav ul {
         padding-right: 52px;
     }
+
+    aside {
+        padding-right: 575px;
+        padding-left: 130px;
+        margin-left: -10px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .offre_populaires {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding-right: 332px;
+    }
+
+    .offre_populaires img {
+        width: 521px;
+        height: 187px;
+    }
 }
