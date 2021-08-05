@@ -985,4 +985,12 @@ footer ul {
         width: 521px;
         height: 187px;
     }
+
+    .groupe_activites {
+        margin-left: 218px;
+    }
+
+    #titre_2 {
+        margin-left: 162px;
+    }
 }
