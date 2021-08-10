@@ -111,10 +111,15 @@ header p {
 
 /*FILTRE*/
 
-#filtre {
+#les_4_filtres {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 30px;
     margin-right: 100px;
+}
+
+#filtre {
+    display: flex;
 }
 
 #filtre p {
@@ -729,7 +734,7 @@ footer ul {
     }
 
     #filtre p {
-        margin-left: -8px;
+        margin-left: 3%;
     }
 
     section {
