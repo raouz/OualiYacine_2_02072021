@@ -608,8 +608,12 @@ footer ul {
     nav {
         display: flex;
         flex-wrap: wrap;
+        font-size: 0.9em;
     }
 
+    nav ul {
+        padding: 0%;
+    }
     #nav_activites a:hover {
         border-top: none;
     }
@@ -627,23 +631,21 @@ footer ul {
     }
 
     #nav_hebergements {
-        margin-top: 55px;
-        margin-left: -180px;
-        padding-left: 45px;
-        padding-right: 53px;
+        padding-right: 2px;
         padding-bottom: 10px;
     }
 
     #nav_activites {
-        margin-top: 55px;
+        /*margin-top: 55px;
         margin-left: -60px;
         padding-left: 65px;
-        padding-right: 50px;
-        padding-bottom: 10px;
+        padding-bottom: 10px;*/
+        padding-right: 84px;
     }
 
     #nav_inscrire {
-        margin-left: -140px;
+        /*margin-left: -140px;*/
+        margin-left: -79px;
     }
 
     #nav_inscrire a:hover {
@@ -673,7 +675,7 @@ footer ul {
 
     #barre_de_recherche {
         height: 50px;
-        margin-left: 8%;
+        margin-left: 12%;
     }
 
     input {
@@ -693,6 +695,7 @@ footer ul {
     #filtre {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 10%;
     }
 
     #economique {
@@ -1025,7 +1028,7 @@ footer ul {
     }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 469px) {
     .offre {
         width: 93%;
         margin-left: 0%;
@@ -1103,5 +1106,25 @@ footer ul {
 
     .activites_3 {
         width: 321px;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 437px) {
+    #les_4_filtres {
+        margin-left: 0%;
+        font-size: 0.9em;
+    }
+
+    #filtre {
+        margin-left: 7%;
+    }
+
+    #familial {
+        margin-left: 176px;
+    }
+}
+
+@media all and (min-width: 560px) {
+    nav ul {
     }
 }
