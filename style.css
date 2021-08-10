@@ -104,23 +104,6 @@ header p {
     cursor: pointer;
 }
 
-#bouton_recherche p {
-    margin-left: 0px;
-    margin-top: 8px;
-}
-#bouton_recherche h2 {
-    text-align: center;
-    padding-bottom: 50px;
-    font-size: 1.1em;
-    margin-top: 5px;
-}
-
-#bouton_recherche h2 {
-    text-align: center;
-    height: 15px;
-    width: -10px;
-}
-
 #bouton_recherche i {
     display: none;
 }
@@ -740,7 +723,7 @@ footer ul {
     #bouton_recherche i {
         display: block;
     }
-    #bouton_recherche p {
+    #rechercher {
         display: none;
     }
 
