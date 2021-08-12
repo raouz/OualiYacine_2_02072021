@@ -621,20 +621,12 @@ footer ul {
     margin-left: 235px;
 }
 
-/*responsive iphone 8*/
+/*responsive iphone tablette */
 
-/*@media screen and (max-width: 720px)*/
 @media all and (max-width: 729px) {
-    /*nav {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 0.9em;
+    body {
+        overflow-x: hidden;
     }
-
-    nav ul {
-        padding: 0%;
-    }*/
-
     #presentation_nav {
         margin-bottom: 69px;
     }
@@ -958,6 +950,9 @@ footer ul {
 /*responsive tablette */
 
 @media all and (min-width: 730px) and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
     header h1 {
         color: black;
         font-size: 1.2em;
@@ -1029,7 +1024,7 @@ footer ul {
     }
 
     footer {
-        padding-left: 154px;
+        padding-left: 84px;
     }
 
     #assistances {
@@ -1201,6 +1196,9 @@ footer ul {
 }
 
 @media all and (max-width: 450px) {
+    body {
+        overflow-x: hidden;
+    }
     #les_liens {
         margin-right: 16%;
         flex-wrap: wrap-reverse;
@@ -1227,5 +1225,28 @@ footer ul {
 
     #nav_inscrire {
         margin-left: 70%;
+    }
+}
+
+@media all and (max-width: 345px) {
+    .descriptions h3 {
+        font-size: 0.8em;
+        width: 140px;
+    }
+    #les_populaires {
+        margin-right: 10%;
+    }
+
+    .offre_populaires {
+        width: 82%;
+    }
+    .activites_1 {
+        width: 96%;
+    }
+    .activite_2 {
+        width: 266px;
+    }
+    .activite_3 {
+        width: 272px;
     }
 }
