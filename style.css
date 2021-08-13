@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 nav a:visited {
-    color: none;
+    color: transparent;
 }
 #nav_hebergements a:visited {
     color: black;
@@ -120,8 +120,7 @@ header p {
     width: 135px;
     height: 35px;
     text-align: center;
-    padding-bottom: -10px;
-    padding-top: -10px;
+
     cursor: pointer;
 }
 
@@ -322,7 +321,6 @@ section {
     padding-left: 30px;
     border-radius: 13px 13px 13px 13px;
     margin-left: 30px;
-    padding-top: -80px;
 }
 
 #offres_hebergements {
@@ -333,7 +331,7 @@ section {
 section p {
     margin-left: 30px;
 
-    font-weight: 550;
+    font-weight: bold;
 }
 
 .offre img {
@@ -525,7 +523,7 @@ aside h2 {
 .groupe_activites h3 {
     margin-left: 13px;
     padding-bottom: 15px;
-    font-weight: 550;
+    font-weight: bold;
 }
 
 .activite_2 img {
