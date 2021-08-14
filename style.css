@@ -83,6 +83,14 @@ header p {
     margin-left: 30px;
 }
 
+header h1 {
+    font-size: 1.3em;
+    margin-left: 30px;
+}
+/*
+header h1{
+    font-size: ;
+}*/
 /* site desktop barre_de_recherche*/
 
 #barre_de_recherche {
