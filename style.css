@@ -13,6 +13,8 @@ body {
     justify-content: space-between;
 }
 
+/*Navigation*/
+
 #les_liens {
     display: flex;
     margin-right: 10%;
@@ -24,23 +26,6 @@ body {
     margin-left: 0%;
     margin-top: 9%;
 }
-
-/*nav ul {
-    display: flex;
-    padding-right: 10px;
-}
-nav ul li {
-    margin-right: 40px;
-    text-decoration: none;
-    list-style-type: none;
-}
-nav a {
-    text-decoration: none;
-}
-
-nav {
-    display: flex;
-}*/
 
 #nav_inscrire {
     text-decoration: none;
@@ -97,6 +82,8 @@ nav a:visited {
 header p {
     margin-left: 30px;
 }
+
+/* site desktop barre_de_recherche*/
 
 #barre_de_recherche {
     display: flex;
@@ -490,7 +477,7 @@ aside h2 {
     flex-wrap: wrap;
 }
 
-/**  mise en forme des activites **/
+/** site desktop mise en forme des activites **/
 
 #titre_2 {
     margin-left: 90px;
@@ -577,7 +564,7 @@ aside h2 {
     margin-left: 50px;
 }
 
-/*footer*/
+/* site desktop footer*/
 
 footer {
     margin-top: 55px;
@@ -621,7 +608,7 @@ footer ul {
 #assistances {
     margin-left: 235px;
 }
-
+/* site  format grand ecran */
 @media all and (min-width: 1366px) {
     body {
         margin: auto;
@@ -629,7 +616,7 @@ footer ul {
     }
 }
 
-/*responsive iphone tablette */
+/*responsive tablette portrait  */
 
 @media all and (max-width: 729px) {
     body {
@@ -655,18 +642,10 @@ footer ul {
     #nav_activites a:hover {
         border-top: none;
     }
-    /*
-    #nav_activites:hover {
-        border-bottom: 2px solid #0065fc;
-    }*/
 
     #nav_hebergements a:hover {
         border-top: none;
     }
-    /*
-    #nav_hebergements:hover {
-        border-bottom: 2px solid #0065fc;
-    }*/
 
     #nav_hebergements {
         padding-right: 2px;
@@ -676,16 +655,10 @@ footer ul {
     }
 
     #nav_activites {
-        /*margin-top: 55px;
-        margin-left: -60px;
-        padding-left: 65px;
-        padding-bottom: 10px;*/
         padding-right: 27px;
     }
 
     #nav_inscrire {
-        /*margin-left: -140px;*/
-        /*margin-left: -79px;*/
         margin-top: 9%;
         margin-left: 5%;
     }
@@ -760,8 +733,6 @@ footer ul {
         margin-top: 3%;
     }
     aside {
-        /*margin-top: 50px;
-        margin-bottom: 0px;*/
         margin: auto;
         width: 94%;
         padding-right: 0%;
@@ -783,9 +754,6 @@ footer ul {
     }
 
     section {
-        /*margin-left: -60px;
-        background-color: white;
-        padding-right: 170px;*/
         margin-left: 0%;
         width: 100%;
         padding-left: 0%;
@@ -871,19 +839,7 @@ footer ul {
         object-fit: cover;
     }
 
-    /* mise en forme des offres populaires*/
-    /* aside {
-        margin-left: -8px;
-        padding-right: 290px;
-        border-radius: 0px 0px 0px 0px;
-    }*/
-
     .offre_populaires {
-        /*margin-left: 20px;
-        padding-right: 257px;
-        padding-bottom: 45px;
-        border-radius: 20px 20px 20px 20px;
-        padding-bottom: 5px;*/
         margin: auto;
         width: 86%;
         margin-bottom: 3%;
@@ -949,7 +905,7 @@ footer ul {
     }
 }*/
 
-/*responsive tablette */
+/*responsive tablette  mode paysage */
 
 @media all and (min-width: 730px) and (max-width: 1024px) {
     body {
@@ -1033,6 +989,7 @@ footer ul {
         margin-left: 156px;
     }
 }
+/* ecran site desktop réduit entre 1319px et 1340px de largeur*/
 @media all and (min-width: 1319px) and (max-width: 1340px) {
     .offre {
         margin-left: 95px;
@@ -1041,7 +998,7 @@ footer ul {
         display: none;
     }
 }
-
+/* écran site desktop réduit entre 1025px et 1318px de largeur */
 @media all and (min-width: 1025px) and (max-width: 1318px) {
     section {
         min-width: 819px;
@@ -1114,7 +1071,7 @@ footer ul {
         padding: 0%;
     }
 }
-
+/* responsive  mobile ecran petit */
 @media all and (max-width: 359px) {
     #filtre {
         margin-left: 20%;
@@ -1179,13 +1136,14 @@ footer ul {
         margin-left: 176px;
     }
 }
-
+/*réduction de la taille des liens de navigation pour ecran
+entre de 451 px et 729px de largeur  */
 @media all and (min-width: 451px) and (max-width: 729px) {
     #les_liens {
         font-size: 0.8em;
     }
 }
-
+/*effet aux survol des liens de navigation pour les portables*/
 @media all and (max-width: 450px) {
     #nav_hebergements:hover {
         padding-left: 50%;
@@ -1197,7 +1155,7 @@ footer ul {
         border-bottom: 2px solid #0065fc;
     }
 }
-
+/*responsive des liens de navigation pour mobile */
 @media all and (max-width: 450px) {
     body {
         overflow-x: hidden;
@@ -1230,7 +1188,8 @@ footer ul {
         margin-left: 70%;
     }
 }
-
+/*  Reduction de la dimention  des offres et activites
+pour mobile avec ecran de 345px maximum de largeur  */
 @media all and (max-width: 345px) {
     .descriptions h3 {
         font-size: 0.8em;
